@@ -12,17 +12,19 @@ export default function Footer() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4">
-                        <p className="ps-3 mb-0">Westley Cervantes</p>
+                        <Link to="/" className="text-decoration-none text-light">
+                            <p className="ps-3 mb-0">Westley Cervantes</p>
+                        </Link>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center">
                         <ul className="nav list-unstyled">
                             <li>
-                                <a className="text-body-secondary" href="#">
+                                <a className="text-body-secondary" href="https://github.com/wacwestley30">
                                     <FontAwesomeIcon icon={faGithub} size="lg" />
                                 </a>
                             </li>
                             <li className="ms-3">
-                                <a className="text-body-secondary" href="#">
+                                <a className="text-body-secondary" href="https://www.linkedin.com/in/westleycervantes/">
                                     <FontAwesomeIcon icon={faLinkedin} size="lg" />
                                 </a>
                             </li>

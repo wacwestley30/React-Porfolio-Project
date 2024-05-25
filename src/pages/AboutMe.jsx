@@ -11,17 +11,18 @@ export default function AboutMe() {
     <div className="container">
       <h1>About Me</h1>
       <div className="row align-items-center">
-        <div className="col-md-4">
+        <div className="col-md-2">
           <img className="aboutMeImage img-fluid rounded-circle" src='/src/assets/images/WesInWhite.jpg' alt="Photo of Westley in business attire"/>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <p>
-            Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-            Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-            mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-            lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-            imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-            in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+            With a solid foundation in electrical work and welding, I have recently transitioned into the field of software development. My background has equipped me with a strong work ethic, attention to detail, and the ability to work collaboratively with diverse teams. These skills have been instrumental in my journey from working on complex technical issues in the manufacturing sector to developing innovative software solutions. My experience in troubleshooting and problem-solving has seamlessly translated into the world of coding, where I enjoy tackling challenging projects and continuously learning new technologies.
+          </p>
+          <p>
+            Throughout my professional career, I have demonstrated a commitment to continuous improvement and adaptability. Whether it was ensuring project success in welding and electrical work or mastering new programming languages and frameworks, I have always been dedicated to achieving excellence. My technical skills now encompass a wide range of software development tools and methodologies, including Agile development, React, Node.js, and various database management systems. This diverse skill set has enabled me to successfully complete projects such as developing a social media API, an SQL employee tracker, and an e-commerce back-end application.
+          </p>
+          <p>
+            As I continue to grow in the tech industry, I am excited to leverage my technical acumen and passion for innovation to contribute to meaningful software projects. My journey from hands-on electrical and welding work to full-stack web development reflects my drive for learning and adapting to new challenges. I am eager to collaborate with like-minded professionals and contribute to projects that drive business growth and technological advancement.
           </p>
         </div>
       </div>
