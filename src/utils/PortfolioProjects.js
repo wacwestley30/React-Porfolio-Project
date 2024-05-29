@@ -4,8 +4,8 @@ export const projects = [
         githubLink: "https://github.com/wacwestley30/google-books-api-search-engine",
         deployedLink: "https://google-books-api-search-engine.onrender.com/",
         description: [
-            "A full-stack application integrating a document-based database using MongoDB, utilizing Mongoose to create schemas and manage data, enhancing the understanding of database interactions. The application allows users to search and save books from the Google Books API, providing a seamless experience for managing book collections.",
-            "Constructed a front-end with React and Apollo Client to handle GraphQL queries and mutations, ensuring efficient data fetching and state management. The application features user authentication, allowing users to sign up, log in, and manage their saved books, with images linking to detailed Google Books pages.",
+            "Created a full-stack application integrating a document-based database using MongoDB, utilizing Mongoose to create schemas and manage data. This application enhances user experience by allowing users to search for and save books from the Google Books API, providing a seamless and efficient way to manage their book collections.",
+            "Constructed the front-end using React and Apollo Client to handle GraphQL queries and mutations, ensuring efficient data fetching and state management. Implemented JWT user authentication features, enabling users to sign up, log in, and manage their saved books. Book images link directly to detailed Google Books pages, enhancing the overall user experience.",
             "Tools / languages used: Express, MongoDB, Mongoose, React, Apollo Client, Vite."
         ]
     },

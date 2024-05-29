@@ -1,20 +1,24 @@
-/*
-- WHEN I am presented with the Resume section
-- THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-*/
+import React from 'react';
+import { Worker } from '@react-pdf-viewer/core';
+import { Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import myResume from '../assets/SoftwareDeveloperResume.pdf';
 
 export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+            <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`}>
+                <div
+                    style={{
+                        border: '1px solid rgba(0, 0, 0, 0.3)',
+                        height: '750px',
+                    }}
+                >
+                    <Viewer fileUrl={myResume} />
+                </div>
+            </Worker>
         </div>
     );
 }
