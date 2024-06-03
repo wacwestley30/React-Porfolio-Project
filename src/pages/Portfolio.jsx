@@ -15,6 +15,13 @@ export default function Portfolio() {
                         <div className="card h-100">
                             <div className="card-body">
                                 <h5 className="card-title">{project.title}</h5>
+                                <a href={project.githubLink} target="_blank">
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="card-img-top"
+                                    />
+                                </a>
                                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="card-link">GitHub.com/{project.title}</a>
                                 <br />
                                 {project.videoLink ? (
@@ -22,7 +29,7 @@ export default function Portfolio() {
                                 ) : project.deployedLink ? (
                                     <a href={project.deployedLink} target="_blank" rel="noopener noreferrer" className="card-link">Live Demo</a>
                                 ) : <br/>}
-                                <ul className="mt-3">
+                                <ul className="mt-3 text-lightBrown">
                                     {project.description.map((desc, idx) => (
                                         <li key={idx}>{desc}</li>
                                     ))}

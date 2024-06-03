@@ -9,30 +9,30 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
     return (
-        <footer className="py-3 my-4 border-top bg-secondary text-light">
+        <footer className="py-3 mt-4 border-top bg-lightGreen text-light">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4 mb-3 mb-md-0 d-flex justify-content-center justify-content-md-start">
                         <Link to="/" className="text-decoration-none text-light">
-                            <p className="mb-0">Westley Cervantes</p>
+                            <h4 className="mb-0">Westley Cervantes</h4>
                         </Link>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center">
                         <ul className="nav list-unstyled">
                             <li>
-                                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                                <a className="text-body-darkBrown" href="https://github.com/wacwestley30">
                                     <FontAwesomeIcon icon={faGithub} size="lg" />
                                 </a>
                             </li>
                             <li className="ms-3">
-                                <a className="text-body-secondary" href="https://www.linkedin.com/in/westleycervantes/">
+                                <a className="text-body-darkBrown" href="https://www.linkedin.com/in/westleycervantes/">
                                     <FontAwesomeIcon icon={faLinkedin} size="lg" />
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center">
-                        <nav className="navbar navbar-expand-lg bg-secondary">
+                        <nav className="navbar navbar-expand-lg">
                             <div className="container">
                                 <div className="row align-items-center">
                                     <div className="col-12 d-flex justify-content-center text-center text-lg-start">

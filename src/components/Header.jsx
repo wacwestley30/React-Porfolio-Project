@@ -3,7 +3,7 @@ import Navbar from './UI/Navbar';
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary">
+    <nav className="navbar navbar-expand-lg bg-lightGreen">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 d-flex justify-content-center text-start">

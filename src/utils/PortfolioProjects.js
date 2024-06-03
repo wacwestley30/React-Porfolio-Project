@@ -1,6 +1,7 @@
 export const projects = [
     {
         title: "Google Books API Search Engine",
+        image: "src/assets/images/google-books-api-search-engine.png",
         githubLink: "https://github.com/wacwestley30/google-books-api-search-engine",
         deployedLink: "https://google-books-api-search-engine.onrender.com/",
         description: [
@@ -11,6 +12,7 @@ export const projects = [
     },
     {
         title: "Social Media API",
+        image: "src/assets/images/Social-Media-API.png",
         githubLink: "https://github.com/wacwestley30/social-media-api",
         videoLink: "https://drive.google.com/file/d/1--F6aq2_oGG4vFNs8OQX1TkFzihcdgnN/view?usp=sharing",
         description: [
@@ -21,6 +23,7 @@ export const projects = [
     },
     {
         title: "SQL Employee Tracker",
+        image: "src/assets/images/SQL-Employee-Tracker.png",
         githubLink: "https://github.com/wacwestley30/sql-employee-tracker",
         videoLink: "https://drive.google.com/file/d/1T04IFXAtIutWaJ2i2OzNf2M2nwFXmbPj/view?usp=drive_link",
         description: [
@@ -31,6 +34,7 @@ export const projects = [
     },
     {
         title: "E-Commerce Back-End App",
+        image: "src/assets/images/E-Commerce Back-End App.png",
         githubLink: "https://github.com/wacwestley30/e-commerce-back-end-app",
         videoLink: "https://drive.google.com/file/d/1UHbYnv5G7DnPmJnklfP1mvqyawJY50bo/view?usp=drive_link",
         description: [
@@ -41,6 +45,7 @@ export const projects = [
     },
     {
         title: "Backend Notes Taker App",
+        image: "src/assets/images/Backend-Notes-Taker-App.png",
         githubLink: "https://github.com/wacwestley30/Backend-Notes-Taker-App",
         deployedLink: "https://backend-notes-taker-app-0b812ac78ad1.herokuapp.com/",
         description: [
@@ -51,6 +56,7 @@ export const projects = [
     },
     {
         title: "README Generator",
+        image: "src/assets/images/ReadMeGenerator.png",
         githubLink: "https://github.com/wacwestley30/READMEGenerator",
         description: [
             "Developed a CLI application using Node.js and Inquirer to generate professional README files. The application prompts the user with a series of questions to gather information, then creates a well-structured README.md file based on the input, enhancing the user’s documentation workflow.",

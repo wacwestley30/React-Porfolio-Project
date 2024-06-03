@@ -1,5 +1,33 @@
+:root {
+    --lightGreen: #606C38;
+    --darkGreen: #283618;
+    --cream: #FEFAE0;
+    --lightBrown: #DDA15E;
+    --darkBrown: #BC6C25;
+}
+
 .aboutMeImage {
     margin-right: 20px;
     max-width: 200px;
     height: 'auto';
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.bg-lightGreen, .card-body {
+    background-color: var(--lightGreen);
+}
+
+.navbar-nav .nav-link.active, .text-body-darkBrown, .card-link, h4 {
+    color: var(--darkBrown);
+}
+
+.text-lightBrown, .card-title {
+    color: var(--lightBrown);
+}
+
+.text-body-darkGreen, h1, h5 p {
+    color: var(--darkGreen);
 }

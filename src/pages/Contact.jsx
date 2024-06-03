@@ -48,17 +48,17 @@ export default function Contact() {
         <div className="container">
             <h1 className="my-4">Contact</h1>
             <p>
-                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
                     Github.com/wacwestley30
                 </a>
             </p>
             <p>
-                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
                     WestleyCervantes@Gmail.com
                 </a>
             </p>
             <p>
-                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
                     LinkedIn.com/WestleyCervantes
                 </a>
             </p>
