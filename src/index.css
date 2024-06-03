@@ -31,3 +31,15 @@ body {
 .text-body-darkGreen, h1, h5 p {
     color: var(--darkGreen);
 }
+
+.btn-green, .btn-green:active:focus {
+    color: var(--lightBrown);
+    background-color: var(--lightGreen);
+    border-color: var(--lightGreen);
+}
+
+.btn-green:hover, .btn-green:active {
+    color: var(--darkBrown);
+    background-color: var(--darkGreen);
+    border-color: var(--darkGreen);
+}

@@ -46,25 +46,27 @@ export default function Contact() {
 
     return (
         <div className="container">
-            <h1 className="my-4">Contact</h1>
-            <p>
-                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
-                    Github.com/wacwestley30
-                </a>
-            </p>
-            <p>
-                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
-                    WestleyCervantes@Gmail.com
-                </a>
-            </p>
-            <p>
-                <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
-                    LinkedIn.com/WestleyCervantes
-                </a>
-            </p>
+            <h1 className="my-4 d-flex justify-content-center justify-content-lg-start">Contact</h1>
+            <div className="d-flex flex-column align-items-center align-items-lg-start">
+                <p>
+                    <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
+                        Github.com/wacwestley30
+                    </a>
+                </p>
+                <p>
+                    <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
+                        WestleyCervantes@Gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
+                        LinkedIn.com/WestleyCervantes
+                    </a>
+                </p>
+            </div>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label for="nameInput" class="form-label">Name</label>
+                    <label for="nameInput" class="form-label d-flex justify-content-center justify-content-lg-start">Name</label>
                     <input
                         id="nameInput"
                         type="text"
@@ -77,7 +79,7 @@ export default function Contact() {
                     {errors.name && <p>{errors.name}</p>}
                 </div>
                 <div className="my-4">
-                    <label for="emailInput" class="form-label">Email</label>
+                    <label for="emailInput" class="form-label d-flex justify-content-center justify-content-lg-start">Email</label>
                     <input
                         id="emailInput"
                         type="email"
@@ -90,7 +92,7 @@ export default function Contact() {
                     {errors.email && <p>{errors.email}</p>}
                 </div>
                 <div className="my-4">
-                    <label for="messageInput" class="form-label">Message</label>
+                    <label for="messageInput" class="form-label d-flex justify-content-center justify-content-lg-start">Message</label>
                     <textarea
                         id="messageInput"
                         name="message"
@@ -101,8 +103,8 @@ export default function Contact() {
                     ></textarea>
                     {errors.message && <p>{errors.message}</p>}
                 </div>
-                <div>
-                    <button className="btn btn-primary" type="submit">Submit</button>
+                <div className="d-grid">
+                    <button className="btn btn-green" type="submit">Submit</button>
                 </div>
             </form>
         </div>

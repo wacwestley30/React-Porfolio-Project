@@ -4,9 +4,9 @@ import Navbar from './UI/Navbar';
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-lightGreen">
-      <div className="container">
+      <div className="container justify-content-center justify-content-lg-start">
         <div className="row align-items-center">
-          <div className="col-12 d-flex justify-content-center text-start">
+          <div className="col-12 d-flex text-center text-lg-start">
             <Navbar
               links={[
                 <Link key={1} className="nav-link" to="/">About Me</Link>,

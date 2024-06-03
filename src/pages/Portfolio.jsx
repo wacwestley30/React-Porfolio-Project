@@ -8,10 +8,10 @@ import { projects } from "../utils/PortfolioProjects";
 export default function Portfolio() {
     return (
         <div className="container">
-            <h1 className="my-4">Portfolio</h1>
+            <h1 className="my-4 d-flex justify-content-center justify-content-lg-start">Portfolio</h1>
             <div className="row">
                 {projects.map((project, index) => (
-                    <div key={index} className="col-md-4 mb-4">
+                    <div key={index} className="col-lg-4 mb-4">
                         <div className="card h-100">
                             <div className="card-body">
                                 <h5 className="card-title">{project.title}</h5>
