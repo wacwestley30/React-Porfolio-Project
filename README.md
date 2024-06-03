@@ -35,6 +35,8 @@ Find links to my GitHub, LinkedIn, and email. The contact form does not send any
 ### Resume
 Access my resume directly within the portfolio via an integrated PDF viewer. This allows you to read my resume without leaving the site. Additionally, you can download a PDF version of my resume for offline viewing or sharing, ensuring easy access to my professional qualifications.
 
+![Screenshot of my Portfolio Project About Me page.](src/assets/images/PortfolioProject.png)
+
 ## License
 
 Licensed under the MIT license.
