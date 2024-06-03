@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <!-- Black Circle Background -->
-    <circle cx="50" cy="50" r="45" fill="black" />
-    <!-- W -->
-    <text x="8" y="65" font-family="Arial" font-size="55" fill="white">W</text>
-    <!-- C -->
-    <text x="48" y="65" font-family="Arial" font-size="55" fill="white">C</text>
-</svg>
