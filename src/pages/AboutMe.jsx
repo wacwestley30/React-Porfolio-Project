@@ -13,7 +13,7 @@ export default function AboutMe() {
       <div className="row d-flex justify-content-center justify-content-lg-start align-items-center">
         <img className="aboutMeImage img-fluid rounded-circle" src='/src/assets/images/WesInWhite.jpg' alt="Photo of Westley in business attire"/>
       </div>
-      <div className="row">
+      <div className="row mt-3">
         <p>
           With a solid foundation in electrical work and welding, I have recently transitioned into the field of software development. My background has equipped me with a strong work ethic, attention to detail, and the ability to work collaboratively with diverse teams. These skills have been instrumental in my journey from working on complex technical issues in the manufacturing sector to developing innovative software solutions. My experience in troubleshooting and problem-solving has seamlessly translated into the world of coding, where I enjoy tackling challenging projects and continuously learning new technologies.
         </p>
