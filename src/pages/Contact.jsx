@@ -45,35 +45,56 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className="container">
+            <h1 className="my-4">Contact</h1>
+            <p>
+                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                    Github.com/wacwestley30
+                </a>
+            </p>
+            <p>
+                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                    WestleyCervantes@Gmail.com
+                </a>
+            </p>
+            <p>
+                <a className="text-body-secondary" href="https://github.com/wacwestley30">
+                    LinkedIn.com/WestleyCervantes
+                </a>
+            </p>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Name</label>
+                    <label for="nameInput" class="form-label">Name</label>
                     <input
+                        id="nameInput"
                         type="text"
                         name="name"
+                        class="form-control"
                         value={formData.name}
                         onChange={handleChange}
                         onBlur={handleBlur}
                     />
                     {errors.name && <p>{errors.name}</p>}
                 </div>
-                <div>
-                    <label>Email</label>
+                <div className="my-4">
+                    <label for="emailInput" class="form-label">Email</label>
                     <input
+                        id="emailInput"
                         type="email"
                         name="email"
+                        class="form-control"
                         value={formData.email}
                         onChange={handleChange}
                         onBlur={handleBlur}
                     />
                     {errors.email && <p>{errors.email}</p>}
                 </div>
-                <div>
-                    <label>Message</label>
+                <div className="my-4">
+                    <label for="messageInput" class="form-label">Message</label>
                     <textarea
+                        id="messageInput"
                         name="message"
+                        class="form-control"
                         value={formData.message}
                         onChange={handleChange}
                         onBlur={handleBlur}
@@ -81,7 +102,7 @@ export default function Contact() {
                     {errors.message && <p>{errors.message}</p>}
                 </div>
                 <div>
-                    <button type="submit">Submit</button>
+                    <button className="btn btn-primary" type="submit">Submit</button>
                 </div>
             </form>
         </div>

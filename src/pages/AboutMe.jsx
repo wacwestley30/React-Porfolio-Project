@@ -9,7 +9,7 @@
 export default function AboutMe() {
   return (
     <div className="container">
-      <h1>About Me</h1>
+      <h1 className="my-4">About Me</h1>
       <div className="row align-items-center">
         <div className="col-md-2">
           <img className="aboutMeImage img-fluid rounded-circle" src='/src/assets/images/WesInWhite.jpg' alt="Photo of Westley in business attire"/>
