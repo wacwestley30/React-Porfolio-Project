@@ -6,6 +6,9 @@
 
 Welcome to my Portfolio Project! This project showcases a collection of my work, including various applications and projects I have developed. It serves as a comprehensive display of my skills and experience in web development. The portfolio is built using modern web technologies and is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
+Deployed site on Render:\
+https://react-porfolio-project.onrender.com/
+
 ## Table of Contents
 
 - [Installation](#installation)
