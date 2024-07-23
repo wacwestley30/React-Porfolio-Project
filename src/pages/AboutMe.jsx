@@ -11,7 +11,7 @@ export default function AboutMe() {
     <div className="container">
       <h1 className="my-4 d-flex justify-content-center justify-content-lg-start">About Me</h1>
       <div className="row d-flex justify-content-center justify-content-lg-start align-items-center">
-        <img className="aboutMeImage img-fluid rounded-circle" src='/src/assets/images/WesInWhite.jpg' alt="Photo of Westley in business attire"/>
+        <img className="aboutMeImage img-fluid rounded-circle" src='/assets/images/WesInWhite.jpg' alt="Photo of Westley in business attire"/>
       </div>
       <div className="row mt-3">
         <p>
