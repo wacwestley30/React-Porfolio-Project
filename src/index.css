@@ -43,3 +43,8 @@ body {
     background-color: var(--darkGreen);
     border-color: var(--darkGreen);
 }
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
