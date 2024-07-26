@@ -54,12 +54,12 @@ export default function Contact() {
                     </a>
                 </p>
                 <p>
-                    <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
+                    <a className="text-body-darkGreen" href="mailto:WestleyCervantes@Gmail.com">
                         WestleyCervantes@Gmail.com
                     </a>
                 </p>
                 <p>
-                    <a className="text-body-darkGreen" href="https://github.com/wacwestley30">
+                    <a className="text-body-darkGreen" href="https://www.linkedin.com/in/westleycervantes/">
                         LinkedIn.com/WestleyCervantes
                     </a>
                 </p>
