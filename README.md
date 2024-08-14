@@ -7,7 +7,7 @@
 Welcome to my MERN Portfolio! This project showcases a collection of my work, including various applications and projects I have developed. It serves as a comprehensive display of my skills and experience in web development. The portfolio is built using modern web technologies and is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
 Deployed site on Render:\
-https://react-porfolio-project.onrender.com/
+https://westley-mern-portfolio.onrender.com/
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ Find links to my GitHub, LinkedIn, and email. The contact form does not send any
 ### Resume
 Access my resume directly within the portfolio via an integrated PDF viewer. This allows you to read my resume without leaving the site. Additionally, you can download a PDF version of my resume for offline viewing or sharing, ensuring easy access to my professional qualifications.
 
-![Screenshot of my Portfolio Project About Me page.](src/assets/images/PortfolioProject.png)
+![Screenshot of my Portfolio Project About Me page.](public/assets/images/PortfolioProject.png)
 
 ## License
 
