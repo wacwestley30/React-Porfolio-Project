@@ -1,10 +1,10 @@
-# React Portfolio Project
+# Westley's MERN Portfolio
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Welcome to my Portfolio Project! This project showcases a collection of my work, including various applications and projects I have developed. It serves as a comprehensive display of my skills and experience in web development. The portfolio is built using modern web technologies and is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
+Welcome to my MERN Portfolio! This project showcases a collection of my work, including various applications and projects I have developed. It serves as a comprehensive display of my skills and experience in web development. The portfolio is built using modern web technologies and is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
 Deployed site on Render:\
 https://react-porfolio-project.onrender.com/
